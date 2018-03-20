@@ -1,3 +1,6 @@
 
 # important notes
-You should use F1-Score instead of Accuracy. Accuracy can be very misleading if your training set is imbalanced (i.e., if a large number of examples belong to one class and a much smaller of examples belong to the other class), because in such cases the classifier tends to overfit and may achieve a high accuracy by simply always predicting the larger class.
+You should use F1-Score instead of Accuracy. 
+Accuracy can be very misleading if your training set is imbalanced 
+(i.e., if a large number of examples belong to one class and a much smaller of examples belong to the other class), 
+because in such cases the classifier tends to overfit and may achieve a high accuracy by simply always predicting the larger class.
