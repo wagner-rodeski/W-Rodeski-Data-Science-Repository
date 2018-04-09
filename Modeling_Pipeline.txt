@@ -1,0 +1,16 @@
+############################################################################################
+#   Problem definition
+#   Variable Identification (predictors and target)
+#   Making Sense of Data
+#       Univariate Analysis
+#       Bi-variate Analysis
+#	Relative Risk Analysis
+#   Missing values treatment
+#   Outlier treatment
+#   Feature Engineering
+#       Variable transformation
+#       Variable creation
+#   Modeling
+#   Model Evaluation/Selection
+#   Deploy
+############################################################################################
