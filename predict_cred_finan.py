@@ -49,9 +49,9 @@ from sklearn import model_selection
 #    uso de certos produtos em meses anteriores ou com recorrencia
 #    saldo (atual, anterior, média, etc)
 #    volumetrias para produtos do isa (talvez mc?)
-#    cnae/cbo (fazer algum tipo de agrupamento)
+#    cnae/cbo (fazer algum tipo de clustering)
 #    patrimonio
-#    médias ou outras visões que agreguem comportamento histórico/tendência
+#    médias ou outras métricas que agreguem comportamento histórico/tendência
 #
 #o que leva a contratação de um cred finan?
 #o que se pode observar em alguem que contrata o prod (persona)
