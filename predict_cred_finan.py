@@ -65,9 +65,9 @@ from sklearn import model_selection
 #        /curto/
 #            [cartao_cred/cred_finan] >> aquisição de bens / pgto de pequenas dívidas ou desp
 #        /médio/
-#            [cred_finan] >>  aquisição de bens / pgto de pequenas dívidas ou desp
+#            [cred_finan] >>  aquisição de bens / pgto de pequenas dívidas ou despesas
 #        /médio/longo/
-#            [cred_finan/consórcio] >> upgrade de bens ou aquisição de grandes bens que ainda não possui
+#            [cred_finan/consórcio] >> upgrade de bens ou aquisição de grandes bens
 #            [consórcio] >> sem pressa, legal ter mas não necessário agora
 #        
 #/veículos/camihoes/motos/educação/imovel/construção-reforma/
