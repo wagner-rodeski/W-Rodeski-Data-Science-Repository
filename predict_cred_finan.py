@@ -63,9 +63,9 @@ from sklearn import model_selection
 #                gastos sob controle mas tem problema no fluxo de caixa (terá chq com recor mas em vol pequeno)
 #                gastos fora de controle, vendendo o almoço pra comprar a janta
 #        /curto/
-#            [cartao_cred/cred_finan] >> aquisição de bens que ainda não possui / pgto de pequenas dívidas ou desp
+#            [cartao_cred/cred_finan] >> aquisição de bens / pgto de pequenas dívidas ou desp
 #        /médio/
-#            [cred_finan] >>  aquisição de bens que ainda não possui / pgto de pequenas dívidas ou desp
+#            [cred_finan] >>  aquisição de bens / pgto de pequenas dívidas ou desp
 #        /médio/longo/
 #            [cred_finan/consórcio] >> upgrade de bens ou aquisição de grandes bens que ainda não possui
 #            [consórcio] >> sem pressa, legal ter mas não necessário agora
