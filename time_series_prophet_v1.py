@@ -30,11 +30,14 @@ df = daily_df.reset_index()
 df.columns = ['ds', 'y']
 df.tail(n=3)
 
-prediction_size = 20
+prediction_size = 15
 train_df = df[:-prediction_size]
 train_df.tail(n=3)
 
-m = Prophet()
+m = Prophet(yearly_seasonality=False,weekly_seasonality=False,
+            daily_seasonality=False).add_seasonality(
+            name='w',period=7,fourier_order=20).add_seasonality(
+            name='m',period=30.5,fourier_order=20)
 m.fit(train_df)
 
 future = m.make_future_dataframe(periods=prediction_size)
@@ -45,3 +48,8 @@ forecast.tail(n=10)
 
 m.plot(forecast)
 m.plot_components(forecast)
+
+a = forecast.set_index('ds')[['yhat']].join(df.set_index('ds'))
+a['diff'] = a['y']-a['yhat']
+######     % de erro      ########################################
+1-(a['diff'].sum()/a['y'].sum())
